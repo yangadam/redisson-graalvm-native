@@ -1,0 +1,9 @@
+[versions]
+redisson = "3.50.1-SNAPSHOT"
+
+[libraries]
+redisson = { module = "org.redisson:redisson", version.ref = "redisson" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.1.20" }
+graalvm-native = { id = "org.graalvm.buildtools.native", version = "0.11.0" }
